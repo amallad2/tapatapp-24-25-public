@@ -20,9 +20,9 @@ Llenguatge de programació:
 Compatibilitat dispositius
 3. Requisits Generals
 a. Gestió d'usuari i autenticació
-Rols d’usuari
-Base de dades
-Seguretat
+Rols d’usuari: Admin, Tutor, cuidador
+Base de dades: Mysql server
+Seguretat: Password en Md5 en BBDD
 b. Emmagatzematge local i sincronització
 Dades que es guarden en local, són sensibles?
 Seguretat
