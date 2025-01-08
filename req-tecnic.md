@@ -4,9 +4,9 @@
 El backend serà el cor del sistema, encarregat de gestionar dades, usuaris, i la lògica del sistema.
 
 ### a. Requisits del servidor
-Allotjament: Hosting Compartit
-Base de dades: Mysql 
-Sistema operatiu del servidor: Linux 
+- Allotjament: Hosting Compartit
+- Base de dades: Mysql 
+- Sistema operatiu del servidor: Linux 
 APIs i serveis web: RESTFul  Flask
 b. Llenguatges de programació
 c. Seguretat
