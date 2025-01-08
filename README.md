@@ -4,4 +4,7 @@
 
 Markdown , síntaxi bàsica per editar fitxers .md:  https://www.markdownguide.org/basic-syntax/
 
-[REqueriments tècnics](req-tecnic.md) 
+[Requeriments tècnics](req-tecnic.md) 
+
+## Prototip 1
+
