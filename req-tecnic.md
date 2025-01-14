@@ -49,4 +49,4 @@ Python
 - IDE’s: VScode 
 - Control de Versions: Git, GitHub
 - Mètode de desenvolupament: Seguir una metodologia àgil com Scrum per iterar i validar funcionalitats amb usuaris reals.
-- Proves de qualitat (QA): Tests de proves Unitàries
+- Proves de qualitat (QA): Tests de proves Unitàries 
