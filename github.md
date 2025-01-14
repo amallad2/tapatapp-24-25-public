@@ -14,6 +14,15 @@ $ scoop install git
 
  ![Clone Remote](/img/2-clonegithub.png)
 
+ Sign-in with your account GitHub
+
  ## 3. Commit & Sync
 
- 
+ Commit changes to local Repository
+
+ ![Commit Changes](/img/3-commit.png)
+
+ And sync to publish to remote Respository GitHub 
+
+
+
