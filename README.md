@@ -16,9 +16,9 @@ Markdown , síntaxi bàsica per editar fitxers .md:  https://www.markdownguide.o
 
 ## Prototip 1
 
-Implementació Backend amb Flask i llistes
-
  ![Prototip1](/charts/diagramaPrototip1.png)
+
+Implementació Backend amb Flask i llistes.
 
 <code># Dades d'exemple Usuaris
 users = [
