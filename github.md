@@ -10,7 +10,14 @@ $ git --version
 
 If not installed, download Git.
 
+<code>
 $ scoop install git
+</code>
+
+<code>
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+</code>
 
 ## 2. Clone repository GitHub to Git
 

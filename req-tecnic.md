@@ -46,7 +46,8 @@ Python
 - APIs de tercers: No en fem servir
 
 ## 5. Requisits del Procés de Desenvolupament
-- IDE’s: VScode 
+- IDE’s: VScode , Miniconda3 (python)
+- Extensions VSCode: python, python snippets
 - Control de Versions: Git, GitHub
 - Mètode de desenvolupament: Seguir una metodologia àgil com Scrum per iterar i validar funcionalitats amb usuaris reals.
 - Proves de qualitat (QA): Tests de proves Unitàries 
