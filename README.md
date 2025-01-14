@@ -18,10 +18,11 @@ Markdown , síntaxi bàsica per editar fitxers .md:  https://www.markdownguide.o
 
 Implementació Backend amb Flask i llistes
 
-<code>
-# Dades d'exemple Usuaris
+ ![Prototip1](/charts/diagramaPrototip1.png)
+
+<code># Dades d'exemple Usuaris
 users = [
     User(id=1, username="usuari1", password="12345", email="usuari1@gmail.com"),
     User(id=2, username="usuari2", password="123", email="usuari2@gmail.com")
-]
+    ]
 </code>
