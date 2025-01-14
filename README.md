@@ -6,5 +6,13 @@ Markdown , síntaxi bàsica per editar fitxers .md:  https://www.markdownguide.o
 
 [Requeriments tècnics](req-tecnic.md) 
 
+## Git - GitHub
+
+[Com connectar VSCode amb un repositori a GitHub](github.md)
+
+## Model E/R
+
+ ![Model E/R](/BBDD/Model-E-R.png)
+
 ## Prototip 1
 
