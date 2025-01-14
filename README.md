@@ -21,15 +21,13 @@ Markdown , síntaxi bàsica per editar fitxers .md:  https://www.markdownguide.o
 Implementació Backend amb Flask i llistes.
 
 <code
-# Clase User
 class User:
     def __init__(self, id, username, password, email):
         self.id = id
         self.username = username
         self.password = password
         self.email = email
-        
-# Dades d'exemple Usuaris
+
 users = [
     User(id=1, username="usuari1", password="12345", email="usuari1@gmail.com"),
     User(id=2, username="usuari2", password="123", email="usuari2@gmail.com")
