@@ -1,3 +1,5 @@
+[Inici](README.md) 
+
 # Requeriments tècnics
 
 ## 1. Backend (Servidor i Gestió de Dades)
