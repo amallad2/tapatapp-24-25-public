@@ -24,3 +24,13 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 Implementació Backend amb Flask i llistes.
 
+Definició dels EndPoints del Servei Web:
+Descripció: Servei que consulta un User per Username
+End-point: /prototip1/getuser
+Method: GET
+Parametres: username
+Resposta:
+Code 200 Ok: {id=1,"username":"userr1", "password":"123456", "email":"mail@gmail.com"} 
+
+Code 400 No trobat: {"error": "No trobat"}
+
