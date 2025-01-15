@@ -29,9 +29,7 @@ Definició dels EndPoints del Servei Web:
 - End-point: /prototip1/getuser
 - Method: GET
 - Parametres: username
-- Resposta:
-
-Code 200 Ok: {id=1,"username":"userr1", "password":"123456", "email":"mail@gmail.com"} 
-
-Code 400 No trobat: {"error": "No trobat"}
+- Resposta:<br/>
+<br/>Code 200 Ok: {id=1,"username":"userr1", "password":"123456", "email":"mail@gmail.com"} 
+<br/>Code 400 No trobat: {"error": "No trobat"}
 
