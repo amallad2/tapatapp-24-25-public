@@ -24,7 +24,7 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 Implementació Backend amb Flask i llistes.
 
-Definició dels EndPoints del Servei Web:
+Definició dels <b>EndPoints del Servei Web</b>:
 - Descripció: Servei que consulta un User per Username
 - End-point: /prototip1/getuser
 - Method: GET
