@@ -31,11 +31,11 @@ class DAOUsers:
 
 daoUser = DAOUsers()
 
-u=daoUser.getUserByUsername("usuari1")
+'''u=daoUser.getUserByUsername("usuari1ewrwe")
 if(u):
     print(u)
 else:
-    print("No trobat")
+    print("No trobat")'''
 
 app = Flask(__name__)
 
