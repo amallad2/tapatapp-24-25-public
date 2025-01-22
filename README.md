@@ -18,7 +18,7 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 Necessitem coneixer com es formen les peticions i respostes Http
 
-![Http Request / Response](https://docs.google.com/document/d/1fnAIsfJJZqlMDvWakbqL_R68UjNa1QhgHB6NNKx2TNM)
+[Http Request / Response](https://docs.google.com/document/d/1fnAIsfJJZqlMDvWakbqL_R68UjNa1QhgHB6NNKx2TNM)
 
 ## Model E/R
 
