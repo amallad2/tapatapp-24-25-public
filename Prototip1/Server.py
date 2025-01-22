@@ -7,8 +7,8 @@ class User:
         self.password=password
         self.email=email
 
-    def __str__(self):
-        return "Id:" + str(self.id) + " Username:" + self.username
+#    def __str__(self):
+#        return "Id:" + str(self.id) + " Username:" + self.username
 
 listUsers= [
     User(1,"usuari1", "12345", "prova@gmail.com"),
@@ -24,7 +24,7 @@ class DAOUsers:
     def getUserByUsername(self,username):
         for u in self.users:
             if u.username == username:
-                return u
+                return u.__dict__
         return None
 
 daoUser = DAOUsers()
@@ -34,6 +34,8 @@ if(u):
     print(u)
 else:
     print("No trobat")'''
+
+print(daoUser.getUserByUsername("usuari1"))
 
 app = Flask(__name__)
 
@@ -45,7 +47,7 @@ def getUser():
 
 @app.route('/prototip/getuser/<string:username>', methods=['GET'])
 def prototipGetUser(username):
-    return "Prototip 1, user:" + username
+    return jsonify(daoUser.getUserByUsername("usuari1"))
 
 if __name__ == '__main__':
      app.run(debug=True,host="0.0.0.0",port="10050")
