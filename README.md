@@ -34,3 +34,12 @@ Necessitem coneixer com es formen les peticions i respostes Http
 ## Definició dels EndPoints del WebService
 Definició dels <b>EndPoints del Servei Web</b>:
 
+Què necessitem per cada End-point
+- Descripció: 
+- HOST: URL server
+- End-point (URL): 
+- Method: 
+- Tipus de petició (headers)
+- Parametres: username
+- Resposta:
+
