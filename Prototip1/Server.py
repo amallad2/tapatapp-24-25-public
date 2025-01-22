@@ -1,7 +1,5 @@
 from flask import Flask, request, jsonify
 
-
-
 class User:
     def __init__(self, id, username, password, email=""):
         self.id=id
@@ -39,16 +37,15 @@ else:
 
 app = Flask(__name__)
 
-@app.route('/proto1/getdata/<string:param1>', methods=['GET'])
-def getData(param1):
-    return "Aquest és el servei /proto1/getdata/ amb parametre=" + param1
+@app.route('/tapatapp/getuser',methods=['GET'])
+def getUser():
+    n = str(request.args.get('name'))
+    email = str(request.args.get('email'))
+    return "Hello World: Nom:" + n + " : email:" + email
 
-@app.route('/hello', methods=['GET'])
-def hello():
-    prova=request.args.get('prova')
-    if(prova):
-        return "Hello World Param=" + prova
-    return "Hello World"
+@app.route('/prototip/getuser/<string:username>', methods=['GET'])
+def prototipGetUser(username):
+    return "Prototip 1, user:" + username
 
 if __name__ == '__main__':
      app.run(debug=True,host="0.0.0.0",port="10050")
