@@ -24,7 +24,8 @@ class DAOUsers:
     def getUserByUsername(self,username):
         for u in self.users:
             if u.username == username:
-                return u.__dict__
+                #return u.__dict__
+                return u
         return None
 
 daoUser = DAOUsers()
