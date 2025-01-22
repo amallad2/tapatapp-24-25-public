@@ -79,4 +79,5 @@ Host:  http://192.168.144.199:10050
 | :---        |  :---        |  :---        |  :---         |  :---     |  :--- | 
 | Obtenir dades d'un usuari  | /prototip1/getuser|GET | application/json   |  username<string> |  {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
 
-Afegir tots els codis de Resposta i els possibles jsons de sortida
+Afegir tots els codis de Resposta i els possibles jsons de sortida.
+Si la petició és GET afegir URL per provar totes les possibles sortides.
