@@ -14,11 +14,6 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 [Com connectar VSCode amb un repositori a GitHub](github.md)
 
-## HTTP Request / Response
-
-Necessitem coneixer com es formen les peticions i respostes Http
-
-[Http Request / Response](https://docs.google.com/document/d/1fnAIsfJJZqlMDvWakbqL_R68UjNa1QhgHB6NNKx2TNM)
 
 ## Model E/R
 
@@ -30,6 +25,13 @@ Necessitem coneixer com es formen les peticions i respostes Http
 
 Implementació Backend amb Flask i les dades amb una llista.
 
+## HTTP Request / Response
+
+Necessitem coneixer com es formen les peticions i respostes Http
+
+[Http Request / Response](https://docs.google.com/document/d/1fnAIsfJJZqlMDvWakbqL_R68UjNa1QhgHB6NNKx2TNM)
+
+## Definició dels EndPoints del WebService
 Definició dels <b>EndPoints del Servei Web</b>:
 - Descripció: Servei que consulta un User per Username
 - End-point: /prototip1/getuser
