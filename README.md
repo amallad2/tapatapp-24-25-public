@@ -36,10 +36,10 @@ Definició dels <b>EndPoints del Servei Web</b>:
 
 Què necessitem per cada End-point
 - Descripció: 
-- HOST: URL server
+- HOST: Accés al server
 - End-point (URL): 
 - Method: 
 - Tipus de petició (headers)
-- Parametres: username
+- Parametres que necessita la petició: (identifica els paràmetres i posa exemples en el cas de peticions GET) 
 - Resposta:
 
