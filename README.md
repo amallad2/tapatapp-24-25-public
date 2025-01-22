@@ -33,11 +33,4 @@ Necessitem coneixer com es formen les peticions i respostes Http
 
 ## Definició dels EndPoints del WebService
 Definició dels <b>EndPoints del Servei Web</b>:
-- Descripció: Servei que consulta un User per Username
-- End-point: /prototip1/getuser
-- Method: GET
-- Parametres: username
-- Resposta:
-<br/>Code 200 Ok: {id=1,"username":"userr1", "password":"123456", "email":"mail@gmail.com"} 
-<br/>Code 400 No trobat: {"error": "No trobat"}
 
