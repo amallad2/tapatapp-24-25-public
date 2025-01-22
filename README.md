@@ -36,7 +36,7 @@ Definició dels <b>EndPoints del Servei Web</b>:
 
 Què necessitem per cada End-point
 - Descripció: 
-- HOST: Accés al server
+- HOST: Domain port 
 - End-point (URL): 
 - Method: 
 - Tipus de petició (headers)
