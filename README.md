@@ -50,5 +50,5 @@ Afegir tots els codis de Resposta i els possibles jsons de sortida.
 Si la petició és GET afegir URL per provar totes les possibles sortides.
 
 Resposta JSON per Usuari trobat:  
-Code Response Http: 200
-Response Body: {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
+<br/> Code Response Http: 200
+<br/> Response Body: {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
