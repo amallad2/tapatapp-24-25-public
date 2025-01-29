@@ -42,9 +42,13 @@ Què necessitem per cada End-point
 
 Host:  http://192.168.144.199:10050  
 
-| Descripció  | End-point     | Method     |Tipus de petició|Parametres| resposta|
-| :---        |  :---        |  :---        |  :---         |  :---     |  :--- | 
-| Obtenir dades d'un usuari  | /prototip1/getuser|GET | application/json   |  username (string) |  {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
+| Descripció  | End-point     | Method     |Tipus de petició|Parametres|
+| :---        |  :---        |  :---        |  :---         |  :---     |  
+| Obtenir dades d'un usuari  | /prototip1/getuser|GET | application/json   |  username (string) | 
 
 Afegir tots els codis de Resposta i els possibles jsons de sortida.
 Si la petició és GET afegir URL per provar totes les possibles sortides.
+
+Resposta JSON per Usuari trobat:  
+Code Response Http: 200
+Response Body: {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
