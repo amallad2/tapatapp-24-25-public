@@ -56,8 +56,10 @@ Code Response Http: 200
 
 ## Diagrames de classes Prototip 1
 
+### Server / Backend
 ![Diagrama de classes Server](/charts/DiagClassesP1Server.png)
 
+### Client / FrontEnd
  ![Diagrama de classes Client](/charts/DiagClassesP1Client.png)
 
  
