@@ -24,8 +24,8 @@ class DAOUsers:
     def getUserByUsername(self,username):
         for u in self.users:
             if u.username == username:
-                #return u.__dict__
-                return u
+                return u.__dict__
+                #return u
         return None
 
 daoUser = DAOUsers()
@@ -40,14 +40,9 @@ print(daoUser.getUserByUsername("usuari1"))
 
 app = Flask(__name__)
 
-@app.route('/tapatapp/getuser',methods=['GET'])
-def getUser():
-    n = str(request.args.get('name'))
-    email = str(request.args.get('email'))
-    return "Hello World: Nom:" + n + " : email:" + email
-
-@app.route('/prototip/getuser/<string:username>', methods=['GET'])
-def prototipGetUser(username):
+@app.route('/hello',methods=['GET'])
+def hello():
+    user = str(request.args.get('username'))
     return jsonify(daoUser.getUserByUsername("usuari1"))
 
 if __name__ == '__main__':
