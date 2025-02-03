@@ -52,3 +52,12 @@ Si la petició és GET afegir URL per provar totes les possibles sortides.
 Resposta JSON per Usuari trobat:  
 Code Response Http: 200
 <br/> Response Body: {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
+
+
+## Diagrames de classes Prototip 1
+
+![Diagrama de classes Server](/charts/DiagClassesP1Server.png)
+
+ ![Diagrama de classes Client](/charts/DiagClassesP1Client.png)
+
+ 
