@@ -58,16 +58,15 @@ Code Response Http: 400
 <br/> Response Body: { "description":  "Falta paràmetre Username",   "code": 2 } 
 <br/> Response Body: { "description":  "Server Error",   "code": 3 }
 
-
-
-
-
 ## Diagrames de classes Prototip 1
 
 ### Server / Backend
 ![Diagrama de classes Server](/charts/DiagClassesP1Server.png)
 
 ### Client / FrontEnd
+
+ Exemples de Requests amb Python:  [Activitat 3.2 Computacio Al Nuvol - HTTP Request](https://docs.google.com/document/d/1G0CPwD9SptF7_FzutV8cV6rNp89WRvci)
+
  ![Diagrama de classes Client](/charts/DiagClassesP1Client.png)
 
  Una altra possibilitat de Diagrama de Classes de Client amb més control sobre la resposta
