@@ -62,4 +62,7 @@ Code Response Http: 200
 ### Client / FrontEnd
  ![Diagrama de classes Client](/charts/DiagClassesP1Client.png)
 
+ Una altra possibilitat de Diagrama de Classes de Client
+
+ ![Diagrama de classes Client](/charts/DiagClassesP1Client-v2.png)
  
