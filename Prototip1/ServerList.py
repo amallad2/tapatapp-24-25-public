@@ -39,7 +39,7 @@ user_dao = UserDAO()
 # /users: retorna tots els usuaris.
 # /users/username/<string:username>: retorna la informació d'un usuari específic pel seu username.
 
-@app.route('/users', methods=['GET'])
+@app.route('/prototip1/users', methods=['GET'])
 def get_users():
     return jsonify(user_dao.get_all_users())
 
