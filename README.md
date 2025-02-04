@@ -47,10 +47,11 @@ Un mockup és una representació més detallada i visualment fidel de l’aplica
 
 Diferències clau:
 
-**Aspecte**|	**Wireframe**|	**Mockup**|
-**Detall**|	Esquemàtic, en blanc i negre|	Visualment elaborat|
-**Funció**|	Definir estructura i navegació|	Mostrar l’aspecte final|
-**Interactivitat**|	No interactiu|	Tampoc interactiu (excepte en prototips)|
-**Moment d’ús**|	Primera fase del disseny|	Etapa avançada, abans del prototip|
+|**Aspecte**|	**Wireframe**|	**Mockup**|
+| -------- | ------- | ------- |
+|**Detall**|	Esquemàtic, en blanc i negre|	Visualment elaborat|
+|**Funció**|	Definir estructura i navegació|	Mostrar l’aspecte final|
+|**Interactivitat**|	No interactiu|	Tampoc interactiu (excepte en prototips)|
+|**Moment d’ús**|	Primera fase del disseny|	Etapa avançada, abans del prototip|
 
 En resum, el wireframe defineix l’esquelet de la interfície, mentre que el mockup afegeix detalls visuals per veure com quedarà l’app abans del desenvolupament. En una fase posterior, es pot crear un prototip interactiu per simular la navegació re
