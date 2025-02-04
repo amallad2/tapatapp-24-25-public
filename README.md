@@ -55,8 +55,8 @@ Code Response Http: 200
 
 Code Response Http: 400
 <br/> Response Body: { "description":  "Usuari no trobat" ,   "code": 1} 
-<br/> Response Body: { "description":  "Falta paràmetre Username",   "code": 2 }   
-<br/> Response Body: { "description":  "Server Error",   "code": 3 }   
+<br/> Response Body: { "description":  "Falta paràmetre Username",   "code": 2 } 
+<br/> Response Body: { "description":  "Server Error",   "code": 3 }
 
 
 
@@ -70,7 +70,7 @@ Code Response Http: 400
 ### Client / FrontEnd
  ![Diagrama de classes Client](/charts/DiagClassesP1Client.png)
 
- Una altra possibilitat de Diagrama de Classes de Client
+ Una altra possibilitat de Diagrama de Classes de Client amb més control sobre la resposta
 
  ![Diagrama de classes Client](/charts/DiagClassesP1Client-v2.png)
  
