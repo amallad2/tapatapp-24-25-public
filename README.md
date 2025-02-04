@@ -51,7 +51,15 @@ Si la petició és GET afegir URL per provar totes les possibles sortides.
 
 Resposta JSON per Usuari trobat:  
 Code Response Http: 200
-<br/> Response Body: {   "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" }      |
+<br/> Response Body: { "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" } 
+
+Code Response Http: 400
+<br/> Response Body: { "description":  "Usuari no trobat" ,   "code": 1} 
+<br/> Response Body: { "description":  "Falta paràmetre Username",   "code": 2 }   
+<br/> Response Body: { "description":  "Server Error",   "code": 3 }   
+
+
+
 
 
 ## Diagrames de classes Prototip 1
