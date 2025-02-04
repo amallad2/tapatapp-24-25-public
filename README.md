@@ -52,4 +52,4 @@ Diferències clau:
 |**Interactivitat**|	No interactiu|	Tampoc interactiu (excepte en prototips)|
 |**Moment d’ús**|	Primera fase del disseny|	Etapa avançada, abans del prototip|
 
-En resum, el wireframe defineix l’esquelet de la interfície, mentre que el mockup afegeix detalls visuals per veure com quedarà l’app abans del desenvolupament. En una fase posterior, es pot crear un prototip interactiu per simular la navegació re
+En resum, el wireframe defineix l’esquelet de la interfície, mentre que el mockup afegeix detalls visuals per veure com quedarà l’app abans del desenvolupament.
