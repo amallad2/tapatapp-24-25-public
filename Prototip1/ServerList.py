@@ -22,7 +22,10 @@ class UserDAO:
         self.users = users
 
     def get_all_users(self):
-        return [user.__dict__ for user in self.users]
+        result = []
+        for user in self.users:
+            result.append(user.__dict__)
+        return result
 
     def get_user_by_username(self, username):
         for user in self.users:
