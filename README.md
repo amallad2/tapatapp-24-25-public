@@ -21,55 +21,36 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 ## Prototip 1
 
- ![Prototip1](/charts/diagramaPrototip1.png)
+[Prototip 1](prototip1.md) 
 
-Implementació Backend amb Flask i les dades amb una llista.
+## Prototip 2
 
-## HTTP Request / Response
+WireFrames & Mockups
 
-Necessitem coneixer com es formen les peticions i respostes Http
+En disseny d’aplicacions, els mockups i els wireframes són elements essencials en el procés de prototipatge i definició de la interfície d’usuari (UI). Tot i que sovint es confonen, tenen objectius diferents:
 
-[Http Request / Response](https://docs.google.com/document/d/1fnAIsfJJZqlMDvWakbqL_R68UjNa1QhgHB6NNKx2TNM)
+**Wireframe**
+Un wireframe és un esquema bàsic que representa l’estructura i la disposició dels elements en una interfície d’usuari.
 
-## Definició dels EndPoints del WebService
-Definició dels <b>EndPoints del Servei Web</b>:
+- Se centra en la funcionalitat i la jerarquia de la informació.
+- No inclou colors, imatges o tipografies detallades.
+- S’utilitza en les primeres etapes del desenvolupament per validar l’estructura i el flux de navegació.
+- Exemples d’eines: Balsamiq, Figma, Adobe XD.
 
-Què necessitem per cada End-point
+**Mockup**
+Un mockup és una representació més detallada i visualment fidel de l’aplicació.
 
-Definició dels <b>EndPoints del Servei Web</b>:
+- Incorpora colors, tipografies, botons i altres elements gràfics.
+- No acostuma a ser interactiu, però mostra clarament l’aparença final de l’app.
+- S’utilitza per validar l’aspecte visual abans de passar a la fase de desenvolupament.
+- Exemples d’eines: Figma, Adobe XD, Sketch.
 
-Què necessitem per cada End-point
+Diferències clau:
 
-Host:  http://192.168.144.199:10050  
+**Aspecte**|	**Wireframe**|	**Mockup**|
+**Detall**|	Esquemàtic, en blanc i negre|	Visualment elaborat|
+**Funció**|	Definir estructura i navegació|	Mostrar l’aspecte final|
+**Interactivitat**|	No interactiu|	Tampoc interactiu (excepte en prototips)|
+**Moment d’ús**|	Primera fase del disseny|	Etapa avançada, abans del prototip|
 
-| Descripció  | End-point     | Method     |Tipus de petició|Parametres|
-| :---        |  :---        |  :---        |  :---         |  :---     |  
-| Obtenir dades d'un usuari  | /prototip1/getuser|GET | application/json   |  username (string) | 
-
-Afegir tots els codis de Resposta i els possibles jsons de sortida.
-Si la petició és GET afegir URL per provar totes les possibles sortides.
-
-Resposta JSON per Usuari trobat:  
-Code Response Http: 200
-<br/> Response Body: { "email": "prova@gmail.com",   "id": 1,   "password":  "12345",   "username": "usuari1" } 
-
-Code Response Http: 400
-<br/> Response Body: { "description":  "Usuari no trobat" ,   "code": 1} 
-<br/> Response Body: { "description":  "Falta paràmetre Username",   "code": 2 } 
-<br/> Response Body: { "description":  "Server Error",   "code": 3 }
-
-## Diagrames de classes Prototip 1
-
-### Server / Backend
-![Diagrama de classes Server](/charts/DiagClassesP1Server.png)
-
-### Client / FrontEnd
-
- Exemples de Requests amb Python:  [Activitat 3.2 Computacio Al Nuvol - HTTP Request](https://docs.google.com/document/d/1G0CPwD9SptF7_FzutV8cV6rNp89WRvci)
-
- ![Diagrama de classes Client](/charts/DiagClassesP1Client.png)
-
- Una altra possibilitat de Diagrama de Classes de Client amb més control sobre la resposta
-
- ![Diagrama de classes Client](/charts/DiagClassesP1Client-v2.png)
- 
+En resum, el wireframe defineix l’esquelet de la interfície, mentre que el mockup afegeix detalls visuals per veure com quedarà l’app abans del desenvolupament. En una fase posterior, es pot crear un prototip interactiu per simular la navegació re
