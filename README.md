@@ -25,7 +25,7 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 ## Prototip 2
 
-WireFrames & Mockups
+### WireFrames & Mockups
 
 En disseny d’aplicacions, els mockups i els wireframes són elements essencials en el procés de prototipatge i definició de la interfície d’usuari (UI). Tot i que sovint es confonen, tenen objectius diferents:
 
