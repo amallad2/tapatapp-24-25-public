@@ -35,7 +35,6 @@ Un wireframe és un esquema bàsic que representa l’estructura i la disposici�
 - Se centra en la funcionalitat i la jerarquia de la informació.
 - No inclou colors, imatges o tipografies detallades.
 - S’utilitza en les primeres etapes del desenvolupament per validar l’estructura i el flux de navegació.
-- Exemples d’eines: Balsamiq, Figma, Adobe XD.
 
 **Mockup**
 Un mockup és una representació més detallada i visualment fidel de l’aplicació.
@@ -43,7 +42,6 @@ Un mockup és una representació més detallada i visualment fidel de l’aplica
 - Incorpora colors, tipografies, botons i altres elements gràfics.
 - No acostuma a ser interactiu, però mostra clarament l’aparença final de l’app.
 - S’utilitza per validar l’aspecte visual abans de passar a la fase de desenvolupament.
-- Exemples d’eines: Figma, Adobe XD, Sketch.
 
 Diferències clau:
 
