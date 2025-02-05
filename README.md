@@ -53,3 +53,21 @@ Diferències clau:
 |**Moment d’ús**|	Primera fase del disseny|	Etapa avançada, abans del prototip|
 
 En resum, el wireframe defineix l’esquelet de la interfície, mentre que el mockup afegeix detalls visuals per veure com quedarà l’app abans del desenvolupament.
+
+**FEINA PER CLASSE** (05/02/25):
+
+Fer tot flux de navegació d'usuari (Wireframes) de l'App TapatApp.
+
+Fer ús de ChatGPT, Perplexity, Copilot, Gemini, DeepSeek ....
+
+![ChatGPT FlowChart](/img/chatgptWireframes.png)
+
+![Mermaid Live Editor](/img/MermaidLiveEditor.png)
+
+Per cada pantalla anota:
+- Informació d'Entrada: Dades que entra l'usuari amb Click , forms, gestos
+- Informació que necessita la Vista: Informació que necessita la Vista pel seu funcionament
+
+Per exemple a la **Vista de Login**:
+- Info. Usuari/Entrada: Username o email, Password
+- Info. Vista:  Token (necessitem per fer Login automàtic)
