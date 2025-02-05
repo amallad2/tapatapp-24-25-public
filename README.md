@@ -58,7 +58,7 @@ En resum, el wireframe defineix l’esquelet de la interfície, mentre que el mo
 
 Fer tot flux de navegació d'usuari (Wireframes) de l'App TapatApp.
 
-Fer ús de ChatGPT, Perplexity, Copilot, Gemini, DeepSeek ....
+Fer ús de ChatGPT, Perplexity, Copilot, Gemini, DeepSeek .... per fer el diagrama del Flux de navegació, a sota tens un exemple amb Mermaid, si vols fer servir altres eines pel diagrama les pots fer servir.
 
 ![ChatGPT FlowChart](/img/chatgptWireframes.png)
 
