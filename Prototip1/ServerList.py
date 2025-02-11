@@ -9,6 +9,9 @@ class User:
         self.username = username
         self.password = password
         self.email = email
+    
+    def __str__(self):
+        print(self.username)
 
 # Dades d'exemple
 users = [
