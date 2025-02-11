@@ -72,3 +72,4 @@ Per exemple a la **Vista de Login**:
 - Descripció: Pantalla de Login on l'usuari validarà de forma segura (Https)
 - Info. Usuari/Entrada: Username o email, Password
 - Info. Vista:  Token (necessitem per fer Login automàtic)
+
