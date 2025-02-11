@@ -11,7 +11,7 @@ class User:
         self.email = email
     
     def __str__(self):
-        print(self.username)
+        print(self.username+":"+self.password+":"+self.email)
 
 # Dades d'exemple
 users = [
