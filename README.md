@@ -73,3 +73,6 @@ Per exemple a la **Vista de Login**:
 - Info. Usuari/Entrada: Username o email, Password
 - Info. Vista:  Token (necessitem per fer Login automàtic)
 
+###  Implementació Prototip 2 
+![Mermaid Live Editor](/img/p2LoginChild.png)
+
