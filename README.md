@@ -70,9 +70,24 @@ Per cada pantalla anota:
 
 Per exemple a la **Vista de Login**:
 - Descripció: Pantalla de Login on l'usuari validarà de forma segura (Https)
-- Info. Usuari/Entrada: Username o email, Password
-- Info. Vista:  Token (necessitem per fer Login automàtic)
+- Info. Entrada que introdueix l'Usuari: Username o email, Password
+- Info. Vista:  Token (opcional, necessitem per fer Login automàtic)
 
 ###  Implementació Prototip 2 
 ![Mermaid Live Editor](/img/p2LoginChild.png)
+
+**Vista de Login**:
+- Descripció: Pantalla de Login on l'usuari validarà de forma segura (Https)
+- Info. Entrada que introdueix l'Usuari: Username o email, Password
+- Info. que necessita la Vista: None
+
+**Vista de Registre**:
+- Descripció: Formulari de Registre d'Usuari 
+- Info. Entrada: username, password, mail
+- Info. Vista: None
+
+**Vista de Child Taps**:
+- Descripció: Vista del Child que té assignat l'Usuari amb els registres d'estat del pegat 
+- Info. Entrada: None
+- Info. Vista: User, Child i Taps 
 
