@@ -77,7 +77,7 @@ Per exemple a la **Vista de Login**:
 ![Mermaid Live Editor](/img/p2LoginChild.png)
 
 **Vista de Login**:
-- Descripció: Pantalla de Login on l'usuari validarà de forma segura (Https)
+- Descripció: Pantalla de Login on l'usuari es validarà
 - Info. Entrada que introdueix l'Usuari: Username o email, Password
 - Info. que necessita la Vista: None
 
