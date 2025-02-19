@@ -7,9 +7,9 @@ flowchart TD
     
     subgraph Client["🌐 Client"]
         A[<b>Client View</b> <br> Input username] -->|Envia dades username| B[Client DAO User<br> getUserByUsername]
-        C -->|Reposta HTTP amb Json User if exists| B
         B -->|Petición HTTP  GET username| C[<b>Servidor</b> <br> Webservice]
         B -->|Dades processades| F[<b>Client View</b> <br> Show Info User if exists]
+        C -->|Reposta HTTP amb Json User if exists| B
     end       
 
 
@@ -18,6 +18,5 @@ flowchart TD
 
     class A client;
     class B client;
-    class C client;
     class C server;
     class D server;
