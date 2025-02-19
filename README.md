@@ -91,3 +91,13 @@ Per exemple a la **Vista de Login**:
 - Info. Entrada: None
 - Info. Vista: User, Child i Taps 
 
+
+###  FASES Implementació Prototip 2 
+
+Publicar a GitHub i fer en un fitxer md independent com està el Prototip 1
+
+1. Wireframes (no posar lògica només l'arbre de navegació) de tota la Aplicació amb la descripció de cada Vista (explicar la lògica si es té clara).
+2. Descripció de la part que implementareu al Prototip 2 (per exemple Vista Login i Vista Child Taps)
+3. Diagrama d'arquitectura del Prototip 2
+4. Diagrama de classes de Backend i Front-End
+5. Implementació 
