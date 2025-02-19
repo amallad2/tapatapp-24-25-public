@@ -2,11 +2,11 @@ flowchart TD
     subgraph Client["🌐 Client"]
         A["🖥️ Vista UI <br> Rep entrada de l'usuari"] -->|Interacció| B["📡 Client DAO <br> Gestiona peticions al servidor"]
         B -->|Consulta Model| M["📊 Client Model <br> Lògica de negoci local"]
-        B -->|Petició HTTP GET/POST...| C["🌍 Webservice API"]
         B -->|Retorna dades processades| A
     end
 
     subgraph Server["🖥️ Servidor"]
+        B -->|Petició HTTP GET/POST...| C["🌍 Webservice API"]
         C -->|Consulta Model| N["🛠️ Server Model <br> Lògica de negoci central"]
         N -->|Consulta DAO| D["📂 Server DAO <br> Accés a dades"]
         D -->|Consulta BBDD| DB["🗄️ Base de Dades"]
