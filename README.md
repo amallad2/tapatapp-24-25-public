@@ -92,7 +92,7 @@ Per exemple a la **Vista de Login**:
 - Info. Vista: User, Child i Taps 
 
 
-###  FASES Implementació Prototip 2 
+###  FASES Implementació Prototip 2 Entorns Desenvolupament DAM
 
 Publicar a GitHub i fer en un fitxer md independent com està el Prototip 1
 
