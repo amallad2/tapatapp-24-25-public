@@ -94,7 +94,7 @@ Per exemple a la **Vista de Login**:
 
 ###  FASES Implementació Prototip 2 Entorns Desenvolupament DAM
 
-Publicar a GitHub i fer en un fitxer md independent com està el Prototip 1
+Publicar a GitHub i fer en un fitxer prototip2.md linkat al README.md
 
 1. Wireframes (no posar lògica només l'arbre de navegació) de tota la Aplicació amb la descripció de cada Vista (explicar la lògica si es té clara).
 2. Descripció de la part que implementareu al Prototip 2 (per exemple Vista Login i Vista Child Taps)
