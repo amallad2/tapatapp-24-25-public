@@ -101,3 +101,5 @@ Publicar a GitHub i fer en un fitxer prototip2.md linkat al README.md
 3. Diagrama d'arquitectura del Prototip 2
 4. Diagrama de classes de Backend i Front-End
 5. Implementació 
+
+![ChatGPT FlowChart](/charts/mvc-generic.mermaid)
