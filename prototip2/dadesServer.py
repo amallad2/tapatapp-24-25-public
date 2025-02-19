@@ -10,13 +10,50 @@ class User:
     def __str__(self):
         return self.username + ":" + self.password + ":" + self.email
 
+# Clase Child
+class Child:
+    def __init__(self, id, child_name, sleep_average, treatment_id, time):
+        self.id = id
+        self.child_name = child_name
+        self.sleep_average = sleep_average
+        self.treatment_id = treatment_id
+        self.time = time
+
+# Clase Tap
+class Tap:
+    def __init__(self, id, child_id, status_id, user_id, init, end):
+        self.id = id
+        self.child_id = child_id
+        self.status_id = status_id
+        self.user_id = user_id
+        self.init = init
+        self.end = end
+
+# Clase Status
+class Status:
+    def __init__(self, id, name):
+        self.id = id
+        self.name = name
+
+# Clase Role
+class Role:
+    def __init__(self, id, type_rol):
+        self.id = id
+        self.type_rol = type_rol
+
+# Clase Treatment
+class Treatment:
+    def __init__(self, id, name):
+        self.id = id
+        self.name = name
+
 users = [
     User(id=1, username="mare", password="12345", email="prova@gmail.com"),
     User(id=2, username="pare", password="123", email="prova2@gmail.com")
 ]
 
 # Crear les classes Child, Tap, Role, Status i Treatment
-'''
+
 children = [
     Child(id=1, child_name="Carol Child", sleep_average=8, treatment_id=1, time=6),
     Child(id=2, child_name="Jaco Child", sleep_average=10, treatment_id=2, time=6)
@@ -52,5 +89,3 @@ treatments = [
     Treatment(id=1, name='Hour'),
     Treatment(id=2, name='percentage')
 ]
-'''
-
