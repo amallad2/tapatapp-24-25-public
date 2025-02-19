@@ -102,4 +102,5 @@ Publicar a GitHub i fer en un fitxer prototip2.md linkat al README.md
 4. Diagrama de classes de Backend i Front-End
 5. Implementació 
 
-![ChatGPT FlowChart](/charts/mvc-generic.mermaid)
+
+[Exemple enllaç a diagrama mermaid](/charts/mvc-generic.mermaid)
