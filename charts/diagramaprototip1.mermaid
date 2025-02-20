@@ -9,7 +9,7 @@ flowchart TD
         A[<b>Client View</b> <br> Input username] -->|Envia dades username| B[Client DAO User<br> getUserByUsername]
         B -->|Petición HTTP  GET | C[<b>Servidor</b> <br> Webservice]
         B -->|Dades processades| F[<b>Client View</b> <br> Show Info User if exists]
-        C -->|Reposta HTTP amb Json | B
+        C -->|Reposta HTTP Json | B
     end       
 
 
