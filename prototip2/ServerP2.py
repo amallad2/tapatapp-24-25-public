@@ -2,7 +2,7 @@ import dadesServer as dades
 from dadesServer import User,Child,Tap,Status,Role,Treatment
 from flask import Flask, jsonify, request
 
-# Exemple d'ús de la llista d'usuaris
+# Exemple d'ús de la llista d'usuaris 
 '''for x in dades.users:
     print(x)
 
