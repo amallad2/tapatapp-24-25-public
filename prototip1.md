@@ -1,6 +1,7 @@
 [Inici](README.md)
 # Prototip 1
 
+## Diagrama d'Arquitectura
 
  ![Prototip1](/charts/diagramaPrototip1.png)
 
