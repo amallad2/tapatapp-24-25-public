@@ -58,7 +58,9 @@ Elements principals d’un diagrama de seqüència:
 1. Dissenyar el diagrama de Seqüència de Login (Classe)
 2. Dissenyar el diagrama de Seqüència d'autenticació amb Token (Login automàtic)
 
-<!-- ![ChatGPT FlowChart](/charts/diagramasequenciaLogin.png)
+![ChatGPT FlowChart](/charts/diagramasequenciaLogin.png)
 
-[Diagrama de seqüència Login (Mermaid)](/charts/diagramasequenciaLogin.mermaid) -->
+[Diagrama de seqüència Login (Mermaid)](/charts/diagramasequenciaLogin.mermaid)
+
+### Test Codi i Proves Unitàries
 
