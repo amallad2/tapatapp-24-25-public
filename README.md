@@ -27,6 +27,7 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 [Prototip 2](prototip2.md) 
 
+[Criteris Avaluació](criterisAvaluacio.md) 
 
 ## Prototip 3
 
