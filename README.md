@@ -50,10 +50,10 @@ Elements principals d’un diagrama de seqüència:
 
 [Exercici Joc mòbil](/enunciatDiagramesSequencia.md)
 
-**Login**
+### Login
 
-1. Desenvolupar el Diagrama de Seqüència de Login (Classe)
-2. Fer Diagrama de Seqüència d'autenticació amb Token (Login automàtic)
+1. Dissenyar el diagrama de Seqüència de Login (Classe)
+2. Dissenyar el diagrama de Seqüència d'autenticació amb Token (Login automàtic)
 
 <!-- ![ChatGPT FlowChart](/charts/diagramasequenciaLogin.png)
 
