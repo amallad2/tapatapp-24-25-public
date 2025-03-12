@@ -33,6 +33,8 @@ Basic Flow Chart:  https://mermaid.js.org/syntax/examples.html#basic-flowchart
 
 ### Diagrames de Seqüència
 
+https://mermaid.js.org/syntax/sequenceDiagram.html
+
 Els diagrames de seqüència s’utilitzen per representar la interacció entre objectes o actors en un sistema a través del temps. Es fan servir principalment en enginyeria de programari per visualitzar el flux de missatges entre els diferents components d’un sistema.
 
 Finalitats dels diagrames de seqüència:
