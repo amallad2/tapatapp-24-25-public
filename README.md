@@ -52,6 +52,8 @@ Elements principals d’un diagrama de seqüència:
 
 **Login**
 
+Desenvolupar el Diagrama de Seqüència de Login
+
 <!-- ![ChatGPT FlowChart](/charts/diagramasequenciaLogin.png)
 
 [Diagrama de seqüència Login (Mermaid)](/charts/diagramasequenciaLogin.mermaid) -->
