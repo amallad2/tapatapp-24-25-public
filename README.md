@@ -52,7 +52,8 @@ Elements principals d’un diagrama de seqüència:
 
 **Login**
 
-Desenvolupar el Diagrama de Seqüència de Login
+1- Desenvolupar el Diagrama de Seqüència de Login (Classe)
+2- Fer Diagrama de Seqüència d'autenticació amb Token (Login automàtic)
 
 <!-- ![ChatGPT FlowChart](/charts/diagramasequenciaLogin.png)
 
