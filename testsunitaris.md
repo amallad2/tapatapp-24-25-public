@@ -31,7 +31,7 @@ Un test unitari (o prova unitària) és una tècnica de verificació en desenvol
 
 ## Com mostrar codi amb MarkDown
 
-POsar el codi entre ```
+Posar el codi entre ```
 
 ```
 def suma(a, b):
