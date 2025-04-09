@@ -1,12 +1,16 @@
+from flask import Flask, jsonify, request
+import json
+
+app = Flask(__name__)
+
 # Dades d'exemple amb List 
 # Clase User 
 class User:
-    def __init__(self, id, username, password, email, token):
+    def __init__(self, id, username, password, email):
         self.id = id
         self.username = username
         self.password = password
         self.email = email
-        self.token = token
     
     def __str__(self):
         return self.username + ":" + self.password + ":" + self.email
@@ -48,11 +52,9 @@ class Treatment:
         self.id = id
         self.name = name
 
-
-
 users = [
-    User(id=1, username="mare", password="12345", email="prova@gmail.com",token ="token12345"),
-    User(id=2, username="pare", password="123", email="prova2@gmail.com",token ="token67890")
+    User(id=1, username="mare", password="12345", email="prova@gmail.com"),
+    User(id=2, username="pare", password="123", email="prova2@gmail.com")
 ]
 
 # Crear les classes Child, Tap, Role, Status i Treatment
@@ -94,24 +96,6 @@ treatments = [
     Treatment(id=2, name='percentage')
 ]
 
-class DAOUser:
-    @staticmethod
-    def login(identifier, password):
-        for user in users:
-            if (user.username == identifier or user.email == identifier) and user.password == password:
-                return user
-        return None
 
-    @staticmethod
-    def get_user_role(user_id):
-        return [relation['rol_id'] for relation in relation_user_child if relation['user_id'] == user_id]
 
-    @staticmethod
-    def get_all_users():
-        return users
 
-class DAOChild:
-    @staticmethod
-    def get_children_by_user_id(user_id):
-        child_ids = [relation['child_id'] for relation in relation_user_child if relation['user_id'] == user_id]
-        return [child for child in children if child.id in child_ids]
