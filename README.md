@@ -90,7 +90,8 @@ Paramètres: <username> : (string) username o email
 
 Resposta Usuari validat Ok: 
 http Response Code: 200 ok
-```{    
+```
+{    
     "id": 1,
     "username": "mare",
     "email": "prova@gmail.com",
@@ -98,14 +99,17 @@ http Response Code: 200 ok
     "idrole": "2",
     "msg": "Usuari Ok"
     "coderesponse": "1"
-}```
+}
+```
 
 Resposta Usuari No validat: 
 http Response Code: 400 ok
-```{
+```
+{
      "coderesponse": "0"
      "msg": "No validat"
-}```
+}
+```
 
 
 #### Servei Login per Token 
@@ -117,7 +121,8 @@ Paramètres Header: 'Authorization'   : (string) token
 
 Resposta Usuari validat Ok: 
 http Response Code: 200 ok
-```{
+```
+{
     "id": 1,
     "username": "mare",
     "email": "prova@gmail.com",
@@ -125,7 +130,8 @@ http Response Code: 200 ok
     "idrole": "2",
     "msg": "Usuari Ok"
     "coderesponse": "1"
-}```
+}
+```
 
 Resposta Usuari No validat: 
 http Response Code: 400 ok
