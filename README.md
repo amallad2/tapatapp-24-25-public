@@ -68,23 +68,25 @@ Elements principals d’un diagrama de seqüència:
 
 [Tests Unitaris](testsunitaris.md) 
 
-## Prototip 4
+## Prototip 4: Backend 
 
 Connexió mb BBDD: Dissenya i implementa el Backend per l'aplicació TapatApp amb un prototip funcional per a que un Tutor pugui gestionar els pegats d'un infant.
 
 Què has de fer: 
 - Posada en marxa de la BBDD Mysql a l'entorn de desenvolupament amb dades per fer les proves.
+- Fes el diagrama d'arquitectura del Backend (BBDD, DAOs, WebService)
+- Fes el diagrama de Classes del Backend
 - Implementació del Backend amb accés a BBDD
 - Tests unitaris del Backend
 
 
-### Requeriments dels serveis de Backend
+### Descripció dels serveis de Backend
 
 #### Servei Login
 End-point:  /login    
 Method: POST  
 Estat: Public  
-Tipus petició :  application/json  
+Tipus petició : application/json  
 Paramètres: <username> : (string) username o email  
 	         <password> : (string)  password  
 
