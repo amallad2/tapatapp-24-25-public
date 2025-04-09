@@ -87,8 +87,9 @@ End-point:  /login
 Method: POST  
 Estat: Public  
 Tipus petició : application/json  
-Paramètres: <username> : (string) username o email  
-	         <password> : (string)  password  
+Paramètres:  
+- <username> : (string) username o email  
+- <password> : (string)  password  
 
 Resposta Usuari validat Ok:  
 http Response Code: 200 ok  
@@ -210,8 +211,9 @@ End-point:  /taps
 Method: POST  
 Estat: Privat (autenticació amb Token per Header)  
 Tipus petició :  application/json  
-Paramètres: <idchild> : (int) id_child identificador del Child  
-Paràmetres: <data>: (date) data amb format dd-mm-yyyy  (si no rebem data tornem tots els Taps)  
+Paramètres: 
+- <idchild> : (int) id_child identificador del Child  
+- <data>: (date) data amb format dd-mm-yyyy  (si no rebem data tornem tots els Taps)  
 
 Resposta No Taps:  
 ```
