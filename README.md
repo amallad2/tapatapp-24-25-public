@@ -81,15 +81,15 @@ Què has de fer:
 ### Requeriments dels serveis de Backend
 
 #### Servei Login
-End-point:  /login  
-Method: POST
-Estat: Public
-Tipus petició :  application/json
-Paramètres: <username> : (string) username o email
-	         <password> : (string)  password
+End-point:  /login    
+Method: POST  
+Estat: Public  
+Tipus petició :  application/json  
+Paramètres: <username> : (string) username o email  
+	         <password> : (string)  password  
 
-Resposta Usuari validat Ok: 
-http Response Code: 200 ok
+Resposta Usuari validat Ok:  
+http Response Code: 200 ok  
 ```
 {    
     "id": 1,
@@ -113,14 +113,14 @@ http Response Code: 400 ok
 
 
 #### Servei Login per Token 
-End-point:  /login 
-Method: POST
-Estat: Public
-Tipus petició :  application/json
-Paramètres Header: 'Authorization'   : (string) token 
+End-point:  /login   
+Method: POST  
+Estat: Public  
+Tipus petició :  application/json  
+Paramètres Header: 'Authorization'   : (string) token   
 
-Resposta Usuari validat Ok: 
-http Response Code: 200 ok
+Resposta Usuari validat Ok:  
+http Response Code: 200 ok  
 ```
 {
     "id": 1,
@@ -133,33 +133,36 @@ http Response Code: 200 ok
 }
 ```
 
-Resposta Usuari No validat: 
-http Response Code: 400 ok
-```{
+Resposta Usuari No validat:   
+http Response Code: 400 ok  
+```
+{
     "coderesponse": "0"
      "msg": "No validat"
-}```
+}
+```
 
 #### Servei Child
-End-point:  /child  
-Method: POST
-Estat: Privat (autenticació amb Token per Header)
-Tipus petició :  application/json
-Paramètres: <iduser> : (int) id_user
+End-point:  /child    
+Method: POST  
+Estat: Privat (autenticació amb Token per Header)  
+Tipus petició :  application/json  
+Paramètres: <iduser> : (int) id_user  
 
 
-Resposta No Child:
-```{ 
+Resposta No Child:  
+```
+{ 
    "msg": "1"
     "coderesponse": "1"
 
   [ ]
-}```
+}
+```
 
-
-
-Resposta 1 Child:
-```{ 
+Resposta 1 Child:  
+```
+{ 
    "msg": "1"
     "coderesponse": "1"
 
@@ -171,11 +174,12 @@ Resposta 1 Child:
     "time": 6
 
 }]
-}```
+}
+```
 
-
-Resposta Varis Child:
-```{ 
+Resposta Varis Child:  
+```
+{ 
    "msg": "2"
     "coderesponse": "1"
 
@@ -195,20 +199,21 @@ Resposta Varis Child:
     "time": 6
 }
 ]
-}```
+}
+```
 
 
 #### Servei Taps
-End-point:  /taps  
-Method: POST
-Estat: Privat (autenticació amb Token per Header)
-Tipus petició :  application/json
-Paramètres: <idchild> : (int) id_child identificador del Child
-Paràmetres: <data>: (date) data amb format dd-mm-yyyy  (si no rebem data tornem tots els Taps)
+End-point:  /taps    
+Method: POST  
+Estat: Privat (autenticació amb Token per Header)  
+Tipus petició :  application/json  
+Paramètres: <idchild> : (int) id_child identificador del Child  
+Paràmetres: <data>: (date) data amb format dd-mm-yyyy  (si no rebem data tornem tots els Taps)  
 
-
-Resposta No Taps:
-```{ 
+Resposta No Taps:  
+```
+{ 
    "msg": "0"
     "coderesponse": "1"
 
@@ -229,10 +234,12 @@ Resposta 1 Taps:
     "end": "2024-12-18T20:42:43"
 }
 ]
-}```
+}
+```
 
-Resposta 2 Taps:
-```{ 
+Resposta 2 Taps:  
+```
+{ 
    "msg": "2"
     "coderesponse": "1"
 
@@ -254,7 +261,8 @@ Resposta 2 Taps:
 }
 
 ]
-}```
+}
+```
 
 
 
