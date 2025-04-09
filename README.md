@@ -67,3 +67,191 @@ Elements principals d’un diagrama de seqüència:
 ## Tests Unitaris
 
 [Tests Unitaris](testsunitaris.md) 
+
+## Prototip 4
+
+Connexió mb BBDD: Dissenya i implementa el Backend per l'aplicació TapatApp amb un prototip funcional per a que un Tutor pugui gestionar els pegats d'un infant.
+
+Què has de fer: 
+- Posada en marxa de la BBDD Mysql a l'entorn de desenvolupament amb dades per fer les proves.
+- Implementació del Backend amb accés a BBDD
+- Tests unitaris del Backend
+
+
+### Requeriments dels serveis de Backend
+
+#### Servei Login
+End-point:  /login  
+Method: POST
+Estat: Public
+Tipus petició :  application/json
+Paramètres: <username> : (string) username o email
+	         <password> : (string)  password
+
+Resposta Usuari validat Ok: 
+http Response Code: 200 ok
+```{    
+    "id": 1,
+    "username": "mare",
+    "email": "prova@gmail.com",
+    "token": "token12345",
+    "idrole": "2",
+    "msg": "Usuari Ok"
+    "coderesponse": "1"
+}```
+
+Resposta Usuari No validat: 
+http Response Code: 400 ok
+```{
+     "coderesponse": "0"
+     "msg": "No validat"
+}```
+
+
+#### Servei Login per Token 
+End-point:  /login 
+Method: POST
+Estat: Public
+Tipus petició :  application/json
+Paramètres Header: 'Authorization'   : (string) token 
+
+Resposta Usuari validat Ok: 
+http Response Code: 200 ok
+```{
+    "id": 1,
+    "username": "mare",
+    "email": "prova@gmail.com",
+    "token": "token12345",
+    "idrole": "2",
+    "msg": "Usuari Ok"
+    "coderesponse": "1"
+}```
+
+Resposta Usuari No validat: 
+http Response Code: 400 ok
+```{
+    "coderesponse": "0"
+     "msg": "No validat"
+}```
+
+#### Servei Child
+End-point:  /child  
+Method: POST
+Estat: Privat (autenticació amb Token per Header)
+Tipus petició :  application/json
+Paramètres: <iduser> : (int) id_user
+
+
+Resposta No Child:
+```{ 
+   "msg": "1"
+    "coderesponse": "1"
+
+  [ ]
+}```
+
+
+
+Resposta 1 Child:
+```{ 
+   "msg": "1"
+    "coderesponse": "1"
+
+  [ {
+"id": 1,
+    "child_name": "Carol Child",
+    "sleep_average": 8,
+    "treatment_id": 1,
+    "time": 6
+
+}]
+}```
+
+
+Resposta Varis Child:
+```{ 
+   "msg": "2"
+    "coderesponse": "1"
+
+  [ {
+"id": 1,
+    "child_name": "Carol Child",
+    "sleep_average": 8,
+    "treatment_id": 1,
+    "time": 6
+
+},
+{
+    "id": 2,
+    "child_name": "Jaco Child",
+    "sleep_average": 10,
+    "treatment_id": 2,
+    "time": 6
+}
+]
+}```
+
+
+#### Servei Taps
+End-point:  /taps  
+Method: POST
+Estat: Privat (autenticació amb Token per Header)
+Tipus petició :  application/json
+Paramètres: <idchild> : (int) id_child identificador del Child
+Paràmetres: <data>: (date) data amb format dd-mm-yyyy  (si no rebem data tornem tots els Taps)
+
+
+Resposta No Taps:
+```{ 
+   "msg": "0"
+    "coderesponse": "1"
+
+  [ ]
+}
+
+Resposta 1 Taps:
+{ 
+   "msg": "1"
+    "coderesponse": "1"
+
+  [ {
+    "id": 1,
+    "child_id": 1,
+    "status_id": 1,
+    "user_id": 1,
+    "init": "2024-12-18T19:42:43",
+    "end": "2024-12-18T20:42:43"
+}
+]
+}```
+
+Resposta 2 Taps:
+```{ 
+   "msg": "2"
+    "coderesponse": "1"
+
+  [ {
+    "id": 1,
+    "child_id": 1,
+    "status_id": 1,
+    "user_id": 1,
+    "init": "2024-12-18T19:42:43",
+    "end": "2024-12-18T20:42:43"
+},
+{
+    "id": 2,
+    "child_id": 1,
+    "status_id": 2,
+    "user_id": 1,
+    "init": "2024-12-18T20:42:43",
+    "end": "2024-12-18T22:42:43"
+}
+
+]
+}```
+
+
+
+
+
+
