@@ -159,7 +159,7 @@ CREATE TABLE `User` (
 
 INSERT INTO `User` (`id`, `username`, `password`, `email`) VALUES
 (1, 'mare', 'mare', 'prova@gmail.com'),
-(2, 'pare', 'pare', 'prova2@gmail.com'),
+(2, 'pare', 'pare', 'prova2@gmail.com');
 
 --
 -- Índices para tablas volcadas
