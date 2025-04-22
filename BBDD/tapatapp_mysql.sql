@@ -150,7 +150,8 @@ CREATE TABLE `User` (
   `id` int NOT NULL,
   `username` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_eo_0900_as_cs NOT NULL,
   `password` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_eo_0900_as_cs NOT NULL,
-  `email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_eo_0900_as_cs NOT NULL
+  `email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_eo_0900_as_cs NOT NULL,
+  `token` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_eo_0900_as_cs DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
