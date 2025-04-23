@@ -22,14 +22,3 @@ class DAOUser:
     def close_connection(self):
         self.cursor.close()
         self.connection.close()
-
-
-# Example usage:   
-DAOUser = DAOUser()
-user = DAOUser.validate_user("mare", "mare")  
-if user:
-    print("User found:", user)
-else:
-    print("User not found") 
-DAOUser.close_connection()
-# The above code defines a DAOUser class that connects to a MySQL database and validates user credentials.
