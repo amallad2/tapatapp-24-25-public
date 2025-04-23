@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request
 import json
-import hashlib
 
 app = Flask(__name__)
 
@@ -96,38 +95,6 @@ treatments = [
     Treatment(id=1, name='Hour'),
     Treatment(id=2, name='percentage')
 ]
-
-# Exemple d'usuaris amb contrasenyes hashades
-users = {
-    "mare": hashlib.sha256("12345".encode('utf-8')).hexdigest(),
-    "pare": hashlib.sha256("123".encode('utf-8')).hexdigest()
-}
-
-@app.route('/login', methods=['POST'])
-def login():
-    """
-    Endpoint per gestionar el login.
-    """
-    data = request.get_json()
-    if not data or 'username' not in data or 'password' not in data:
-        return jsonify({"status": "error", "message": "Falten dades"}), 400
-
-    username = data['username']
-    password = data['password']
-
-    # Comprovar si l'usuari existeix
-    if username in users:
-        # Hashejar la contrasenya rebuda i comparar-la amb la guardada
-        hashed_password = hashlib.sha256(password.encode('utf-8')).hexdigest()
-        if users[username] == hashed_password:
-            return jsonify({"status": "ok", "message": "Login correcte"}), 200
-        else:
-            return jsonify({"status": "error", "message": "Contrasenya incorrecta"}), 401
-    else:
-        return jsonify({"status": "error", "message": "Usuari no trobat"}), 404
-
-if __name__ == "__main__":
-    app.run(debug=True)
 
 
 
