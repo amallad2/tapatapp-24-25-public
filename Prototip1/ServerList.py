@@ -60,5 +60,6 @@ def get_user_by_username():
         return jsonify({"error": f"User with username {username} not found"}), 404
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10050, debug=True)
+    app.run(debug=True,host="0.0.0.0",port="10050")
+    #app.run(host='0.0.0.0', port=10050, debug=True)
 
